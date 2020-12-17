@@ -8,6 +8,7 @@ import Login from './Login';
 import PrivateRoute from './PrivateRoute';
 import ForgotPassword from './ForgotPassword';
 import UpdateProfile from './UpdateProfile';
+import AddProject from './project/AddProject';
 
 function App() {
    return (
@@ -30,6 +31,7 @@ function App() {
                         path='/forgot-password'
                         component={ForgotPassword}
                      />
+                     <Route path='/add-project' component={AddProject} />
                   </Switch>
                </AuthProvider>
             </Router>

@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "auth-react-dev-a85fe",
+    "production": "auth-react-pro"
+  }
+}
